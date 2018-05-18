@@ -41,10 +41,10 @@ public class PlayPauseButton extends JToggleButton implements ActionListener {
         this.explorerProperty = commandPanel.getExplorerProperty();
         this.fieldPanel = commandPanel.getFieldPanel();
 
-        path = Paths.get("src", "main", "resources", "images", "play.png");
+        path = Paths.get("main", "resources", "images", "play.png");
         this.play = new ImageIcon(path.toString());
         
-        path = Paths.get("src", "main", "resources", "images", "pause.png");
+        path = Paths.get("main", "resources", "images", "pause.png");
         this.pause = new ImageIcon(path.toString());
         
         setIcon(play);

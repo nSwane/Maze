@@ -26,25 +26,25 @@ public class ItemLoader {
         
         Path path;
         
-        path = Paths.get("src", "main", "resources", "images", "s.png");
+        path = Paths.get("main", "resources", "images", "s.png");
         START_POINT = new ImageIcon(path.toString());
         
-        path = Paths.get("src", "main", "resources", "images", "f.png");
+        path = Paths.get("main", "resources", "images", "f.png");
         EXIT_POINT = new ImageIcon(path.toString());
         
-        path = Paths.get("src", "main", "resources", "images", "wall.png");
+        path = Paths.get("main", "resources", "images", "wall.png");
         WALL = new ImageIcon(path.toString());
         
-        path = Paths.get("src", "main", "resources", "images", "explorer-north.png");
+        path = Paths.get("main", "resources", "images", "explorer-north.png");
         EXPLORER_HEADING_NORTH = new ImageIcon(path.toString());
         
-        path = Paths.get("src", "main", "resources", "images", "explorer-south.png");
+        path = Paths.get("main", "resources", "images", "explorer-south.png");
         EXPLORER_HEADING_SOUTH = new ImageIcon(path.toString());
         
-        path = Paths.get("src", "main", "resources", "images", "explorer-east.png");
+        path = Paths.get("main", "resources", "images", "explorer-east.png");
         EXPLORER_HEADING_EAST = new ImageIcon(path.toString());
         
-        path = Paths.get("src", "main", "resources", "images", "explorer-west.png");
+        path = Paths.get("main", "resources", "images", "explorer-west.png");
         EXPLORER_HEADING_WEST = new ImageIcon(path.toString());
         
     }

@@ -46,21 +46,21 @@ public class CommandPanel extends JPanel implements ActionListener, Observer {
         setLayout(new GridBagLayout());
         
         // Turn left button
-        Path tl = Paths.get("src", "main", "resources", "images", "turn-left.png");
+        Path tl = Paths.get("main", "resources", "images", "turn-left.png");
         Icon iconTl = new ImageIcon(tl.toString());        
         turnLeft = new JButton(iconTl);
         turnLeft.setActionCommand("TURN_LEFT");
         turnLeft.addActionListener(this);
         
         // Turn right button
-        Path tr = Paths.get("src", "main", "resources", "images", "turn-right.png");
+        Path tr = Paths.get("main", "resources", "images", "turn-right.png");
         Icon iconTr = new ImageIcon(tr.toString());        
         turnRight = new JButton(iconTr);
         turnRight.setActionCommand("TURN_RIGHT");
         turnRight.addActionListener(this);
         
         // move forward button
-        Path mf = Paths.get("src", "main", "resources", "images", "move.png");
+        Path mf = Paths.get("main", "resources", "images", "move.png");
         Icon iconMf = new ImageIcon(mf.toString());        
         moveForward = new JButton(iconMf);
         moveForward.setActionCommand("MOVE_FORWARD");

@@ -40,7 +40,7 @@ class Main {
         
         try {
             
-            File file = Paths.get("src", "main", "resources", "ExampleMaze.txt").toFile();
+            File file = Paths.get("main", "resources", "ExampleMaze.txt").toFile();
             Maze maze = new Maze(file);
         
             // Ensure that all components have the same reference to the maze at any moment
